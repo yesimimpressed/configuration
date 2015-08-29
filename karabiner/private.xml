@@ -1,0 +1,65 @@
+<root>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Chrome</name>
+    <url type="file">/Applications/Google Chrome.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F2-Chrome</name>
+    <identifier>private.f2</identifier>
+    <autogen>__KeyToKey__ KeyCode::F2, KeyCode::VK_OPEN_URL_APP_Chrome</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_FoxMail</name>
+    <url type="file">/Applications/Foxmail.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F3-FoxMail</name>
+    <identifier>private.f3</identifier>
+    <autogen>__KeyToKey__ KeyCode::F3, KeyCode::VK_OPEN_URL_APP_FoxMail</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Evernote</name>
+    <url type="file">/Applications/Evernote.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F4-Evernote</name>
+    <identifier>private.f4</identifier>
+    <autogen>__KeyToKey__ KeyCode::F4, KeyCode::VK_OPEN_URL_APP_Evernote</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Skype</name>
+    <url type="file">/Applications/Skype.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F5-Skype</name>
+    <identifier>private.f5</identifier>
+    <autogen>__KeyToKey__ KeyCode::F5, KeyCode::VK_OPEN_URL_APP_Skype</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Wunderlist</name>
+    <url type="file">/Applications/Wunderlist.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F6-Wunderlist</name>
+    <identifier>private.f6</identifier>
+    <autogen>__KeyToKey__ KeyCode::F6, KeyCode::VK_OPEN_URL_APP_Wunderlist</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_iTerm</name>
+    <url type="file">/Applications/iTerm.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F7-iTerm</name>
+    <identifier>private.f7</identifier>
+    <autogen>__KeyToKey__ KeyCode::F7, KeyCode::VK_OPEN_URL_APP_iTerm</autogen>
+  </item>
+  <vkopenurldef>
+    <name>KeyCode::VK_OPEN_URL_APP_Dictionary</name>
+    <url type="file">/Applications/Dictionary.app</url>
+  </vkopenurldef>
+  <item>
+    <name>F14-Dictionary</name>
+    <identifier>private.f14</identifier>
+    <autogen>__KeyToKey__ KeyCode::F14, KeyCode::VK_OPEN_URL_APP_Dictionary</autogen>
+  </item>
+</root>
