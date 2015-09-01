@@ -158,24 +158,25 @@ iab xdate <c-r>=strftime("20%y-%m-%d %H:%M:%S")<cr>
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle
-" required!
-Bundle 'gmarik/vundle'
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
 
 " fantastic view
 Plugin 'altercation/vim-colors-solarized'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'bling/vim-airline'
 
 " file|buffer manager
 "Plugin 'kien/ctrlp.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'jistr/vim-nerdtree-tabs'
+Plugin 'scrooloose/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'majutsushi/tagbar'
 Plugin 'jeetsukumaran/vim-buffergator'
 "Plugin 'rking/ag.vim'
@@ -183,11 +184,11 @@ Plugin 'jeetsukumaran/vim-buffergator'
 "Plugin 'wincent/command-t'
 
 " Git plugin
-Bundle 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 
 " Python mode
 Plugin 'Valloric/YouCompleteMe'
-Bundle 'klen/python-mode'
+Plugin 'klen/python-mode'
 Plugin 'davidhalter/jedi-vim'
 "Plugin 'nvie/vim-flake8'
 
@@ -238,8 +239,8 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 
-nmap <F7> :NERDTreeToggle<CR>
-nmap <F8> :TagbarToggle<CR>
+nmap <F8> :NERDTreeToggle<CR>
+nmap <F9> :TagbarToggle<CR>
 
 
 " ==== buffer | window | tab ====
